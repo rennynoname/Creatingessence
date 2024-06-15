@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+    <html lang="en-US">
+        <head>
+          <meta charset="utf-8" />
+          <meta name="viewport" content="width=device-width" />
+
+          <style>
+
+body {  
+position: absolute;
+  display: flex;
+    width: 75%;
+  min-height: calc((1vw + 1vh) * 75);
+  /* center page with absolute position */
+  top: 0%; left: 50%; transform: translate(-50%, 0);
+  margin: 2em 0;
+    padding: 4em;
+    box-shadow: 2px 3px 20px black, 0 0 60px #8a4d0f inset;
+    background: #fffef0;
+  filter: url(#wavy2);
+}
+
+.flex-container {display: flex; }  
+
+.flex-container > div { color: rgb(104, 60, 40); font-family: 'salina'; margin: 0 -20px; padding: 70px; font-size: 19px; width: 3px;}
+
+.center-text {text-align: center;}
+
+            h1   {color: rgb(189, 156, 141);  font-family: 'salina';  font-size: 200%; 
+                  width: 1100px; padding: 5px;  margin: 10px; text-align: center; } 
+
+            h2    {color: rgb(230, 24, 24); font-family: 'salina';  font-size: 175%; position: absolute; bottom: 10px; opacity: 100;} 
+        
+            </style>
+
+        </head>
+
+        <!Title of page>
+        <h1>CREATING ESSENCE</h1>
+
+        <!header>
+
+        <div class="flex-container" >
+            <div><a style="text-decoration: none;"href="home.html">Home</a> </div>
+            <div><a style="text-decoration: none;"href="Post.html">Post</a> </div>
+            <div><a style="text-decoration: none; "href="about.html">About</a> </div>
+        </div>
+
+        <!Home page image and quote>
+        <h2>
+            <a href="scripts/mine.zip">test file</a>
+        </h2>
+       
+
+        <footer>
+            <p></p>
+        </footer>
+
+      </html>
